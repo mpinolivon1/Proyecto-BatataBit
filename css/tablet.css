@@ -1,0 +1,17 @@
+.plans-container--slider {
+    justify-content: center; /*esta parte era la que se desacomodaba, como usamos un flex, con un center basta para alinear el contenido*/
+ }
+
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap; /*Para que el contenido no genere un overflow, le colocamos esta propiedad de wrap*/
+    width: 930px;
+    margin: 0 auto;
+}
+
+.main-tables-container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
